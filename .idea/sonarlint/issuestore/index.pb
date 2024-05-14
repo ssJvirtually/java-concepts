@@ -27,3 +27,5 @@ X
 (src/main/java/com/java/interfaces/B.java,1\3\139b51f8ca75569bbd026d6698f0128281f723bd
 X
 (src/main/java/com/java/interfaces/C.java,e\4\e41c87100dd458fbbd6a8154f665976613f6eaab
+b
+2src/main/java/com/java/records/EmployeeRecord.java,8\5\857241afb818109724c5f657593fa3d34e88f529
