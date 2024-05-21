@@ -1,4 +1,4 @@
-package com.java.examples.builder;
+package com.java.examples.designpatterns.builder;
 
 import java.util.List;
 

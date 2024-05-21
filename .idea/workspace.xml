@@ -4,54 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9115a630-c156-43b3-b9db-4e2abbef6c48" name="Changes" comment="added records">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/builder/BuilderPatternTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/builder/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/compare/ComparableDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/compare/HashCodeAndEqualsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/file/ReadFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/files/FileCopy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/http/HttpRequestDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/java8/FunctionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/java8/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/leetcode/IsSubSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/leetcode/SortCharactersByFrequency.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/loops/ForLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/map/ConcurrentHashMapExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/model/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/model/Contact.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/model/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/model/EmployeeGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/multithreading/ExecutorServiceDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/multithreading/SyncronizedDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/multithreading/ThreadCreation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/polymorphism/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/questions/PrintEvenOddUsing2Threads.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/server/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/server/SimpleHttpServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/streams/StreamExamples.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+    <list default="true" id="9115a630-c156-43b3-b9db-4e2abbef6c48" name="Changes" comment="added new classes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/exception/ParentChildExceptionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/multithreading/ThreadStartMethodOverrideScen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/serialization/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/serialization/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/serialization/SerializeObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/serialization/deserializeObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/streams/MapStreamExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/streams/StreamQuestions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/collections/HashMapImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/collections/HashMapImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/collections/QueueAndStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/collections/QueueAndStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/collections/StreamOps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/collections/StreamOps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/exception/CustomExceptionImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/exception/CustomExceptionImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/interfaces/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/interfaces/A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/interfaces/B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/interfaces/B.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/interfaces/C.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/interfaces/C.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/keywords/ThisKeyword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/keywords/ThisKeyword.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/lambdas/Addition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/lambdas/Addition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/lambdas/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/lambdas/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/lambdas/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/lambdas/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/lambdas/Substraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/lambdas/Substraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/multithreading/DownloaderTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/multithreading/DownloaderTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/multithreading/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/multithreading/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/parentchild/Child.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/parentchild/Child.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/parentchild/Parent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/parentchild/Parent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/records/EmployeeRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/records/EmployeeRecord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/records/RecordsMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/records/RecordsMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/reflections/DynamicClassGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/reflections/DynamicClassGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/serializationanddeserialization/SerilazationDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/serializationanddeserialization/SerilazationDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/examples/builder/BuilderPatternTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/designpatterns/builder/BuilderPatternTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/examples/builder/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/designpatterns/builder/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/examples/compare/ComparableDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/compare/ComparableDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/examples/map/ConcurrentHashMapExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/collections/map/ConcurrentHashMapExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,32 +56,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "false",
-    "last_opened_file_path": "D:/jskr456/CodeBase/Java_And_SpringBoot/Java/JAVA_CONCEPTS/src/main/java/com/java/examples/multithreading",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2678161",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/jskr456/CodeBase/Java_And_SpringBoot/Java/JAVA_CONCEPTS/src/main/java/com/java/examples/multithreading&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2678161&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\jskr456\CodeBase\Java_And_SpringBoot\Java\JAVA_CONCEPTS\src\main\java\com\java\examples\multithreading" />
       <recent name="D:\jskr456\CodeBase\Java_And_SpringBoot\Java\JAVA_CONCEPTS\src\main\java\com\java\examples" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HttpRequestDemo">
-    <configuration name="FileCopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.files.FileCopy" />
+  <component name="RunManager" selected="Application.deserializeObject">
+    <configuration name="ParentChildExceptionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.examples.exception.ParentChildExceptionDemo" />
       <module name="JAVA_CONCEPTS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.files.*" />
+          <option name="PATTERN" value="com.java.examples.exception.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.loops.ForLoop" />
+    <configuration name="SerializeObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.examples.serialization.SerializeObject" />
       <module name="JAVA_CONCEPTS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.loops.*" />
+          <option name="PATTERN" value="com.java.examples.serialization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HttpRequestDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.http.HttpRequestDemo" />
+    <configuration name="StreamQuestions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.examples.streams.StreamQuestions" />
       <module name="JAVA_CONCEPTS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.http.*" />
+          <option name="PATTERN" value="com.java.examples.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecordsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.records.RecordsMain" />
+    <configuration name="ThreadStartMethodOverrideScen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.examples.multithreading.ThreadStartMethodOverrideScen" />
       <module name="JAVA_CONCEPTS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.records.*" />
+          <option name="PATTERN" value="com.java.examples.multithreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SerilazationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.serializationanddeserialization.SerilazationDemo" />
+    <configuration name="deserializeObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.examples.serialization.deserializeObject" />
       <module name="JAVA_CONCEPTS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.serializationanddeserialization.*" />
+          <option name="PATTERN" value="com.java.examples.serialization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HttpRequestDemo" />
-        <item itemvalue="Application.SerilazationDemo" />
-        <item itemvalue="Application.FileCopy" />
-        <item itemvalue="Application.ForLoop" />
-        <item itemvalue="Application.RecordsMain" />
+        <item itemvalue="Application.deserializeObject" />
+        <item itemvalue="Application.SerializeObject" />
+        <item itemvalue="Application.ThreadStartMethodOverrideScen" />
+        <item itemvalue="Application.ParentChildExceptionDemo" />
+        <item itemvalue="Application.StreamQuestions" />
       </list>
     </recent_temporary>
   </component>
@@ -200,12 +166,20 @@
       <option name="project" value="LOCAL" />
       <updated>1696350760516</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added new classes">
+      <created>1715664909103</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715664909103</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added records" />
-    <option name="LAST_COMMIT_MESSAGE" value="added records" />
+    <MESSAGE value="added new classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="added new classes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -275,6 +249,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/java/examples/loops/ForLoop.java</url>
           <line>24</line>
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/java/examples/serialization/deserializeObject.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

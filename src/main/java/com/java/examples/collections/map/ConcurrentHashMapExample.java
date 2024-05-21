@@ -1,4 +1,4 @@
-package com.java.examples.map;
+package com.java.examples.collections.map;
 
 import java.util.Date;
 import java.util.HashMap;

@@ -49,7 +49,7 @@ public class ComparableDemo {
 
         employees.stream().sorted(houseNoComparator).collect(Collectors.toList());
 
-        Comparator.comparing(Employee::getDob)
+        Comparator.comparing(Employee::getDob);
 
 
     }
