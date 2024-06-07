@@ -5,11 +5,11 @@ import com.java.examples.model.Contact;
 import com.java.examples.model.Employee;
 import com.java.examples.model.EmployeeGenerator;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
+import java.util.stream.Collector;
 import java.util.stream.Collectors;
+
+import static java.util.stream.Collectors.groupingBy;
 
 public class ComparableDemo {
 
@@ -17,9 +17,8 @@ public class ComparableDemo {
 
 
         List<Employee> employees = EmployeeGenerator.generate(3);
-
-        employees.stream().forEach(System.out::println);
-
+        
+        employees.stream().collect(groupingBy(Employee::getName, Collectors.maxBy(Comparator.comparing(Employee::getName))));
 
         System.out.println(employees);
 

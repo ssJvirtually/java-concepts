@@ -4,6 +4,8 @@ import java.util.*;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
+
+
 public class StreamExamples {
 
 
@@ -48,5 +50,8 @@ public class StreamExamples {
         //Used LocalDateTime API to get both date and time
 
         Collections.sort(highPaidEmployees,Comparator.comparing(String::length));
+
+
+
     }
 }

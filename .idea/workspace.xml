@@ -4,10 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9115a630-c156-43b3-b9db-4e2abbef6c48" name="Changes" comment="added code samples for &#10;Serializing &#10;DeSerializing&#10;objects">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/keywords/TransientKeyWord.java" afterDir="false" />
+    <list default="true" id="9115a630-c156-43b3-b9db-4e2abbef6c48" name="Changes" comment="added code samples for &#10;TransientKeyWord">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/datatypes/DataType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/gui/DownloadManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/immutable/ImmutableDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/interviewqsn/CapGemini.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/interviewqsn/Random.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/math/MatrixMultiplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/streams/FlatMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/temp/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/examples/collections/HashMapImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/collections/HashMapImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/examples/compare/ComparableDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/compare/ComparableDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/examples/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/model/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/examples/streams/StreamExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/streams/StreamExamples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/examples/streams/StreamQuestions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/streams/StreamQuestions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,13 +73,13 @@
       <recent name="D:\jskr456\CodeBase\Java_And_SpringBoot\Java\JAVA_CONCEPTS\src\main\java\com\java\examples" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TransientKeyWord">
-    <configuration name="ParentChildExceptionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.examples.exception.ParentChildExceptionDemo" />
+  <component name="RunManager" selected="Application.ImmutableDemo (1)">
+    <configuration name="FlatMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.examples.streams.FlatMap" />
       <module name="JAVA_CONCEPTS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.examples.exception.*" />
+          <option name="PATTERN" value="com.java.examples.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SerializeObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.examples.serialization.SerializeObject" />
+    <configuration name="ImmutableDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.examples.immutable.ImmutableDemo" />
       <module name="JAVA_CONCEPTS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.examples.serialization.*" />
+          <option name="PATTERN" value="com.java.examples.immutable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadStartMethodOverrideScen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.examples.multithreading.ThreadStartMethodOverrideScen" />
+    <configuration name="ImmutableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.examples.immutable.ImmutableDemo" />
       <module name="JAVA_CONCEPTS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.examples.multithreading.*" />
+          <option name="PATTERN" value="com.java.examples.immutable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TransientKeyWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.examples.keywords.TransientKeyWord" />
+    <configuration name="MatrixMultiplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.examples.math.MatrixMultiplication" />
       <module name="JAVA_CONCEPTS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.examples.keywords.*" />
+          <option name="PATTERN" value="com.java.examples.math.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="deserializeObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.examples.serialization.deserializeObject" />
+    <configuration name="Random" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.examples.interviewqsn.Random" />
       <module name="JAVA_CONCEPTS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.examples.serialization.*" />
+          <option name="PATTERN" value="com.java.examples.interviewqsn.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TransientKeyWord" />
-        <item itemvalue="Application.deserializeObject" />
-        <item itemvalue="Application.SerializeObject" />
-        <item itemvalue="Application.ThreadStartMethodOverrideScen" />
-        <item itemvalue="Application.ParentChildExceptionDemo" />
+        <item itemvalue="Application.ImmutableDemo (1)" />
+        <item itemvalue="Application.ImmutableDemo" />
+        <item itemvalue="Application.Random" />
+        <item itemvalue="Application.FlatMap" />
+        <item itemvalue="Application.MatrixMultiplication" />
       </list>
     </recent_temporary>
   </component>
@@ -169,26 +179,34 @@
       <option name="project" value="LOCAL" />
       <updated>1716273653381</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added code samples for &#10;TransientKeyWord">
+      <created>1716664401205</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716664401205</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added records" />
     <MESSAGE value="added new classes" />
     <MESSAGE value="added code samples for &#10;Serializing &#10;DeSerializing&#10;objects" />
-    <option name="LAST_COMMIT_MESSAGE" value="added code samples for &#10;Serializing &#10;DeSerializing&#10;objects" />
+    <MESSAGE value="added code samples for &#10;TransientKeyWord" />
+    <option name="LAST_COMMIT_MESSAGE" value="added code samples for &#10;TransientKeyWord" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/java/examples/collections/HashMapImplementation.java</url>
-          <line>15</line>
+          <line>14</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/java/examples/collections/HashMapImplementation.java</url>
-          <line>16</line>
+          <line>15</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -252,6 +270,20 @@
           <line>46</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/java/examples/interviewqsn/CapGemini.java</url>
+          <line>112</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/java/examples/math/MatrixMultiplication.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="31" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
