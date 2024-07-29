@@ -1,6 +1,4 @@
-package com.java.examples.multithreading.course;
-
-import java.util.concurrent.Callable;
+package com.java.examples.multithreading.course.creation;
 
 class A extends Thread {
 
@@ -29,6 +27,9 @@ public class ThreadCreation {
         //create thread by extending thread class
         Thread threadA = new Thread(new A(), "A");
 
+        Thread threadA1 = new A();
+        threadA1.setName("threadA1");
+
         //create thread by implementing runnable interface
         Thread threadB = new Thread(new B(), "B");
 
@@ -48,13 +49,14 @@ public class ThreadCreation {
             System.out.println("Thread name = " + Thread.currentThread().getName());
         }, "D");
 
-
+        System.out.println("System Thread count = "+Runtime.getRuntime().availableProcessors());
 
         System.out.println("Thread name = " + Thread.currentThread().getName());
         threadA.start();
         threadB.start();
         threadC.start();
         threadD.start();
+        threadA1.start();
 
 
         Thread.sleep(1000);
