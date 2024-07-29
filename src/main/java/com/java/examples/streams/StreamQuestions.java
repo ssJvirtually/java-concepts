@@ -1,7 +1,9 @@
 package com.java.examples.streams;
 
 import java.util.*;
+import java.util.function.Function;
 import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 class Employee {
     private String name;
@@ -42,8 +44,7 @@ public class StreamQuestions {
     public static void main(String[] args) {
 
 
-
-        List<Integer> list = List.of(1,2,3,4,5,6,7,8,9,10);
+        List<Integer> list = List.of(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
 
         //create square of all odd numbers
         List<Integer> oddSqaures = list.stream().filter(e -> e % 2 != 0).map(e -> e * e).collect(Collectors.toList());
@@ -72,5 +73,27 @@ public class StreamQuestions {
                                 .groupingBy(Employee::getDepartment, Collectors.maxBy(Comparator.comparingInt(Employee::getCommits))));
 
         System.out.println(collect);
+
+
+        //first repeating char in string
+
+        String s = "ssjvirtually";
+
+
+        IntStream chars = s.chars();
+
+        chars.forEach(System.out::println);
+
+
+        Character c1 = s.chars().mapToObj(c -> (char) c).collect(Collectors.groupingBy(Function.identity(), LinkedHashMap::new, Collectors.counting()))
+                .entrySet().stream().
+                filter(entry -> entry.getValue() > 1L)
+                .map(Map.Entry::getKey)
+                .findFirst()
+                .get();
+
+        System.out.println(c1);
+
     }
+
 }
