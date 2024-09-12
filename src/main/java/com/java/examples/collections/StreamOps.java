@@ -3,11 +3,15 @@ package com.java.examples.collections;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+import java.util.PriorityQueue;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
 import java.util.function.Supplier;
 import java.util.stream.Collectors;
 
 public class StreamOps {
 
+    Object minLock = new Object();
 
     public static void main(String[] args) {
         List<String> arrayList = new ArrayList<>();
@@ -46,12 +50,10 @@ public class StreamOps {
             System.out.println(iterator.next());
         }
 
+        Lock lock = new ReentrantLock();
 
+        lock.lock();
 
-
-//        for(int i=0;i<list.size();i++){
-//            String s = list.get(i);
-//            System.out.println(s);
-//        }
     }
+
 }

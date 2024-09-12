@@ -4,9 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9115a630-c156-43b3-b9db-4e2abbef6c48" name="Changes" comment="added code samples for polymorphism">
+    <list default="true" id="9115a630-c156-43b3-b9db-4e2abbef6c48" name="Changes" comment="Thread Co-ordination:&#10;&#10;ThreadJoin&#10;ThreadJoinWithTimeout&#10;ThreadJoinWithOutTimeout">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/designpatterns/singleton/MultiThreadSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/designpatterns/singleton/SingleThreadSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/multithreading/PrintOddEvenWithTwoThreads.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/multithreading/course/sampleapps/RecolourImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/temp/SchemaGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/temp/SwaggerSchemaGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/many-flowers.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/examples/streams/StreamQuestions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/streams/StreamQuestions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/examples/collections/StreamOps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/collections/StreamOps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/examples/designpatterns/builder/BuilderPatternTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/examples/designpatterns/builder/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/examples/multithreading/ThreadCreation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/multithreading/ThreadCreation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,42 +59,63 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2Mm9JkQtziAdy4sT3oD8jk9LVOZ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.DaemonThread.executor": "Run",
+    "Application.HackerPoliceApp.executor": "Run",
+    "Application.MultiThreadSingleton.executor": "Run",
     "Application.OverRiding.executor": "Run",
+    "Application.PrintOddEvenWithTwoThreads (1).executor": "Run",
+    "Application.PrintOddEvenWithTwoThreads (2).executor": "Debug",
+    "Application.PrintOddEvenWithTwoThreads.executor": "Run",
+    "Application.RecolourImage.executor": "Run",
+    "Application.SchemaGenerator.executor": "Run",
+    "Application.SingleThreadSingleton.executor": "Run",
     "Application.StreamQuestions (1).executor": "Run",
     "Application.StreamQuestions.executor": "Run",
+    "Application.SwaggerSchemaGenerator.executor": "Run",
     "Application.ThreadCreation.executor": "Run",
+    "Application.ThreadExceptionHandling.executor": "Run",
+    "Application.ThreadInterruption.executor": "Run",
+    "Application.ThreadInterruptionFromOutside.executor": "Run",
+    "Application.ThreadJoin.executor": "Run",
+    "Application.ThreadJoinWithTimeout.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/jskr456/CodeBase/Java_And_SpringBoot/Java/JAVA_CONCEPTS/src/main/java/com/java/examples/multithreading",
-    "project.structure.last.edited": "Project",
+    "last_opened_file_path": "C:/Users/jakumarr/Downloads/jskr456/java-concepts/src/main/resources",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2678161",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "debugger.dataViews"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jakumarr\Downloads\jskr456\java-concepts\src\main\resources" />
       <recent name="D:\jskr456\CodeBase\Java_And_SpringBoot\Java\JAVA_CONCEPTS\src\main\java\com\java\examples\multithreading" />
       <recent name="D:\jskr456\CodeBase\Java_And_SpringBoot\Java\JAVA_CONCEPTS\src\main\java\com\java\examples" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.java.examples.multithreading.course.sampleapps" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.ThreadCreation">
-    <configuration name="ImmutableDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.examples.immutable.ImmutableDemo" />
+  <component name="RunManager" selected="Application.SchemaGenerator">
+    <configuration name="PrintOddEvenWithTwoThreads (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.examples.multithreading.PrintOddEvenWithTwoThreads" />
       <module name="JAVA_CONCEPTS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.examples.immutable.*" />
+          <option name="PATTERN" value="com.java.examples.multithreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OverRiding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.examples.polymorphism.OverRiding" />
+    <configuration name="PrintOddEvenWithTwoThreads (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.examples.multithreading.PrintOddEvenWithTwoThreads" />
       <module name="JAVA_CONCEPTS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.examples.polymorphism.*" />
+          <option name="PATTERN" value="com.java.examples.multithreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamQuestions (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.examples.streams.StreamQuestions" />
+    <configuration name="PrintOddEvenWithTwoThreads" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.examples.multithreading.PrintOddEvenWithTwoThreads" />
       <module name="JAVA_CONCEPTS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.examples.streams.*" />
+          <option name="PATTERN" value="com.java.examples.multithreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamQuestions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.examples.streams.StreamQuestions" />
+    <configuration name="SchemaGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.examples.temp.SchemaGenerator" />
       <module name="JAVA_CONCEPTS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.examples.streams.*" />
+          <option name="PATTERN" value="com.java.examples.temp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +162,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadCreation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.examples.multithreading.course.ThreadCreation" />
+    <configuration name="SwaggerSchemaGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.examples.temp.SwaggerSchemaGenerator" />
       <module name="JAVA_CONCEPTS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.examples.multithreading.course.*" />
+          <option name="PATTERN" value="com.java.examples.temp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ThreadCreation" />
-        <item itemvalue="Application.StreamQuestions (1)" />
-        <item itemvalue="Application.StreamQuestions" />
-        <item itemvalue="Application.OverRiding" />
-        <item itemvalue="Application.ImmutableDemo (1)" />
+        <item itemvalue="Application.SchemaGenerator" />
+        <item itemvalue="Application.SwaggerSchemaGenerator" />
+        <item itemvalue="Application.PrintOddEvenWithTwoThreads (2)" />
+        <item itemvalue="Application.PrintOddEvenWithTwoThreads (1)" />
+        <item itemvalue="Application.PrintOddEvenWithTwoThreads" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +230,39 @@
       <option name="project" value="LOCAL" />
       <updated>1721988320712</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added code for Thread Creation ways">
+      <option name="closed" value="true" />
+      <created>1722238104831</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1722238104831</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Thread Creation , exception handling and sample application">
+      <option name="closed" value="true" />
+      <created>1722248884787</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1722248884787</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Thread termination , interruption , daemon thread">
+      <option name="closed" value="true" />
+      <created>1722248942089</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1722248942089</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Thread Co-ordination:&#10;&#10;ThreadJoin&#10;ThreadJoinWithTimeout&#10;ThreadJoinWithOutTimeout">
+      <option name="closed" value="true" />
+      <created>1722417390928</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1722417390929</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -207,7 +271,11 @@
     <MESSAGE value="added code samples for &#10;Serializing &#10;DeSerializing&#10;objects" />
     <MESSAGE value="added code samples for &#10;TransientKeyWord" />
     <MESSAGE value="added code samples for polymorphism" />
-    <option name="LAST_COMMIT_MESSAGE" value="added code samples for polymorphism" />
+    <MESSAGE value="added code for Thread Creation ways" />
+    <MESSAGE value="Thread Creation , exception handling and sample application" />
+    <MESSAGE value="Thread termination , interruption , daemon thread" />
+    <MESSAGE value="Thread Co-ordination:&#10;&#10;ThreadJoin&#10;ThreadJoinWithTimeout&#10;ThreadJoinWithOutTimeout" />
+    <option name="LAST_COMMIT_MESSAGE" value="Thread Co-ordination:&#10;&#10;ThreadJoin&#10;ThreadJoinWithTimeout&#10;ThreadJoinWithOutTimeout" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -254,7 +322,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/java/examples/collections/StreamOps.java</url>
-          <line>20</line>
+          <line>24</line>
           <properties>
             <option name="lambda-ordinal" value="-1" />
           </properties>
@@ -262,7 +330,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/java/examples/collections/StreamOps.java</url>
-          <line>19</line>
+          <line>23</line>
           <properties>
             <option name="lambda-ordinal" value="-1" />
           </properties>
@@ -292,6 +360,26 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/java/examples/math/MatrixMultiplication.java</url>
           <line>33</line>
           <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/java/examples/multithreading/PrintOddEvenWithTwoThreads.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/java/examples/multithreading/PrintOddEvenWithTwoThreads.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/java/examples/multithreading/PrintOddEvenWithTwoThreads.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/java/examples/multithreading/PrintOddEvenWithTwoThreads.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.IndexOutOfBoundsException" package="java.lang" />

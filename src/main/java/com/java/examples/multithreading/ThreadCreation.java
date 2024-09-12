@@ -6,7 +6,7 @@ import java.util.concurrent.Callable;
 //Thread creation extending thread class
 class A extends  Thread{
 
-    public void run(){
+    public  void run(){
         int i=1;
         while(i<10) {
             System.out.println("threadId " + Thread.currentThread().getName() +" " + i);
