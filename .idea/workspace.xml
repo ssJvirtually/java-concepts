@@ -5,19 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9115a630-c156-43b3-b9db-4e2abbef6c48" name="Changes" comment="Thread Co-ordination:&#10;&#10;ThreadJoin&#10;ThreadJoinWithTimeout&#10;ThreadJoinWithOutTimeout">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/designpatterns/singleton/MultiThreadSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/designpatterns/singleton/SingleThreadSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/multithreading/PrintOddEvenWithTwoThreads.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/multithreading/course/sampleapps/RecolourImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/temp/SchemaGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/temp/SwaggerSchemaGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/many-flowers.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/recordings/StringReverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/stackoverflow/xml/XmlUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/temp/ClassToSwaggerConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/temp/model/AClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/temp/model/BClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/temp/model/CClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/temp/model/DClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/examples/collections/StreamOps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/collections/StreamOps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/examples/designpatterns/builder/BuilderPatternTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/examples/designpatterns/builder/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/examples/multithreading/ThreadCreation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/examples/multithreading/ThreadCreation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +65,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ClassToSwaggerConverter.executor": "Run",
     "Application.DaemonThread.executor": "Run",
     "Application.HackerPoliceApp.executor": "Run",
     "Application.MultiThreadSingleton.executor": "Run",
@@ -80,6 +78,7 @@
     "Application.SingleThreadSingleton.executor": "Run",
     "Application.StreamQuestions (1).executor": "Run",
     "Application.StreamQuestions.executor": "Run",
+    "Application.StringReverse.executor": "Debug",
     "Application.SwaggerSchemaGenerator.executor": "Run",
     "Application.ThreadCreation.executor": "Run",
     "Application.ThreadExceptionHandling.executor": "Run",
@@ -87,20 +86,27 @@
     "Application.ThreadInterruptionFromOutside.executor": "Run",
     "Application.ThreadJoin.executor": "Run",
     "Application.ThreadJoinWithTimeout.executor": "Run",
+    "Application.XmlUtil.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "false",
+    "com.codeium.enabled": "true",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/jakumarr/Downloads/jskr456/java-concepts/src/main/resources",
+    "last_opened_file_path": "E:/work/java-concepts/src/main/java/com/java/examples/temp",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2678161",
-    "settings.editor.selected.configurable": "debugger.dataViews"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.java.examples.temp.model" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\work\java-concepts\src\main\java\com\java\examples\temp" />
       <recent name="C:\Users\jakumarr\Downloads\jskr456\java-concepts\src\main\resources" />
       <recent name="D:\jskr456\CodeBase\Java_And_SpringBoot\Java\JAVA_CONCEPTS\src\main\java\com\java\examples\multithreading" />
       <recent name="D:\jskr456\CodeBase\Java_And_SpringBoot\Java\JAVA_CONCEPTS\src\main\java\com\java\examples" />
@@ -109,39 +115,13 @@
       <recent name="com.java.examples.multithreading.course.sampleapps" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SchemaGenerator">
-    <configuration name="PrintOddEvenWithTwoThreads (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.examples.multithreading.PrintOddEvenWithTwoThreads" />
+  <component name="RunManager" selected="Application.ClassToSwaggerConverter">
+    <configuration name="ClassToSwaggerConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.examples.temp.ClassToSwaggerConverter" />
       <module name="JAVA_CONCEPTS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.examples.multithreading.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PrintOddEvenWithTwoThreads (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.examples.multithreading.PrintOddEvenWithTwoThreads" />
-      <module name="JAVA_CONCEPTS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java.examples.multithreading.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PrintOddEvenWithTwoThreads" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.examples.multithreading.PrintOddEvenWithTwoThreads" />
-      <module name="JAVA_CONCEPTS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java.examples.multithreading.*" />
+          <option name="PATTERN" value="com.java.examples.temp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,6 +142,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.examples.recordings.StringReverse" />
+      <module name="JAVA_CONCEPTS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.examples.recordings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SwaggerSchemaGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.examples.temp.SwaggerSchemaGenerator" />
       <module name="JAVA_CONCEPTS" />
@@ -175,13 +168,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="XmlUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.examples.stackoverflow.xml.XmlUtil" />
+      <module name="JAVA_CONCEPTS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.examples.stackoverflow.xml.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClassToSwaggerConverter" />
+        <item itemvalue="Application.StringReverse" />
+        <item itemvalue="Application.XmlUtil" />
         <item itemvalue="Application.SchemaGenerator" />
         <item itemvalue="Application.SwaggerSchemaGenerator" />
-        <item itemvalue="Application.PrintOddEvenWithTwoThreads (2)" />
-        <item itemvalue="Application.PrintOddEvenWithTwoThreads (1)" />
-        <item itemvalue="Application.PrintOddEvenWithTwoThreads" />
       </list>
     </recent_temporary>
   </component>
@@ -380,6 +386,32 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/java/examples/multithreading/PrintOddEvenWithTwoThreads.java</url>
           <line>73</line>
           <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/java/examples/recordings/StringReverse.java</url>
+          <line>39</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/java/examples/recordings/StringReverse.java</url>
+          <line>38</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk-23/lib/src.zip!/java.base/java/util/Collection.java</url>
+          <line>728</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk-23/lib/src.zip!/java.base/java/util/Collection.java</url>
+          <line>747</line>
+          <option name="timeStamp" value="40" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.IndexOutOfBoundsException" package="java.lang" />
