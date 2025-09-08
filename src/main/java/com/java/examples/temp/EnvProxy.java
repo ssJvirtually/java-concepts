@@ -1,5 +1,3 @@
-package com.java.examples.temp;
-
 import java.io.*;
 import java.net.*;
 import java.util.*;
@@ -31,13 +29,10 @@ public class EnvProxy {
             if (requestLine == null) return;
 
             if (requestLine.startsWith("CONNECT")) {
-                // HTTPS tunnel
                 String[] parts = requestLine.split(" ");
                 String hostPort = parts[1];
                 String host = hostPort.split(":")[0];
-                int port = Integer.parseInt(hostPort.split(":")[1]);
 
-                // Pick which proxy to forward to
                 String target = ENV_PROXY_MAP.get(host);
                 if (target == null) {
                     out.write("HTTP/1.1 502 Bad Gateway\r\n\r\n".getBytes());
@@ -45,20 +40,40 @@ public class EnvProxy {
                 }
 
                 String[] targetParts = target.split(":");
-                try (Socket targetSocket = new Socket(targetParts[0], Integer.parseInt(targetParts[1]))) {
+                try (Socket upstream = new Socket(targetParts[0], Integer.parseInt(targetParts[1]))) {
+                    PrintWriter upstreamOut = new PrintWriter(upstream.getOutputStream(), true);
+                    BufferedReader upstreamIn = new BufferedReader(new InputStreamReader(upstream.getInputStream()));
+
+                    // ✅ Forward the CONNECT request to the real proxy
+                    upstreamOut.println(requestLine);
+                    // Forward headers
+                    String header;
+                    while (!(header = in.readLine()).isEmpty()) {
+                        upstreamOut.println(header);
+                    }
+                    upstreamOut.println();
+                    upstreamOut.flush();
+
+                    // ✅ Read proxy’s response
+                    String response = upstreamIn.readLine();
+                    if (response == null || !response.contains("200")) {
+                        out.write(("HTTP/1.1 502 Bad Gateway\r\n\r\nUpstream said: " + response).getBytes());
+                        return;
+                    }
+
+                    // Tell Postman tunnel established
                     out.write("HTTP/1.1 200 Connection Established\r\n\r\n".getBytes());
                     out.flush();
 
-                    // Start piping raw TLS data
-                    Thread t1 = new Thread(() -> pipe(client, targetSocket));
-                    Thread t2 = new Thread(() -> pipe(targetSocket, client));
+                    // Start piping raw data both ways
+                    Thread t1 = new Thread(() -> pipe(client, upstream));
+                    Thread t2 = new Thread(() -> pipe(upstream, client));
                     t1.start();
                     t2.start();
                     t1.join();
                     t2.join();
                 }
             } else {
-                // Handle plain HTTP requests
                 out.write("HTTP/1.1 501 Not Implemented\r\n\r\n".getBytes());
             }
         } catch (Exception e) {
